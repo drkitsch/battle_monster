@@ -6,6 +6,10 @@ class Battle < Sinatra::Base
     register Sinatra::Reloader
   end
 
+get '/' do 
+  "Testing infrastructure working!"
+end 
+
 get '/hello' do
 "Hello Battle"
 end 

@@ -14,3 +14,7 @@ gem "sinatra-contrib"
 
 source "https://rubygems.org"
 gem "rspec"
+
+source "https://rubygems.org"
+gem "capybara"
+
